@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(250, 250, 250);
+  font-family: "Poppins", sans-serif;
+  color: rgb(25, 25, 25);
+}
+header {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.name,
+.name-two {
+  font-size: 7rem;
+  letter-spacing: -5px;
+  line-height: 0.8;
+  font-weight: 400;
+  margin: 0;
+}
+.name {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.name-two {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.year {
+  font-size: 1.6rem;
+  vertical-align: center;
+  margin-left: 100px;
+  margin-right: 20px;
+  letter-spacing: -4px;
+}
+img {
+  width: 50vw;
+  float: right;
+}
